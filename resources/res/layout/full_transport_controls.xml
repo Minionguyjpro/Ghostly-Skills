@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/prev" style="@style/FullTransportControlsButton.Previous"/>
+    <ImageButton android:id="@+id/rew" style="@style/FullTransportControlsButton.Rew"/>
+    <ImageButton android:id="@+id/pause" style="@style/FullTransportControlsButton.Pause"/>
+    <ImageButton android:id="@+id/ffwd" style="@style/FullTransportControlsButton.Ffwd"/>
+    <ImageButton android:id="@+id/next" style="@style/FullTransportControlsButton.Next"/>
+</LinearLayout>

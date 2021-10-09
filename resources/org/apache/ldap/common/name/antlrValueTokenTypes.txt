@@ -1,0 +1,15 @@
+// $ANTLR 2.7.2: valuelexer.g -> antlrValueTokenTypes.txt$
+antlrValue    // output token vocab name
+EQUAL=4
+COMMA=5
+SEMI=6
+DN_TERMINATOR=7
+PLUS=8
+DIGIT=9
+ALPHA=10
+HEXCHAR=11
+HEXPAIR=12
+ESCAPED_CHAR=13
+HEX_STRING=14
+QUOTED_STRING=15
+SIMPLE_STRING=16

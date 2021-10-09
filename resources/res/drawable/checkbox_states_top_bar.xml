@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checked="false" android:drawable="@drawable/url_bar_top_menu_checkbox_off"/>
+    <item android:state_checked="true" android:drawable="@drawable/url_bar_top_menu_checkbox_on"/>
+    <item android:drawable="@drawable/url_bar_top_menu_checkbox_off"/>
+</selector>

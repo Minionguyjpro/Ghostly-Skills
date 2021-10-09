@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="General" android:key="general_category">
+        <SwitchPreference android:title="@string/show_quick_access_bar" android:key="show_quick_access_bar" android:summary="@string/notification_shortcuts" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notifications" android:key="notifications_category">
+        <SwitchPreference android:title="@string/show_notifications" android:key="enable_notification" android:defaultValue="true" android:summaryOn="@string/time_show_notification" android:summaryOff="@string/show_notification_disabled"/>
+        <com.appsgeyser.multiTabApp.utils.TimePreference android:title="@string/from" android:key="time_from" android:summary="07:00" android:dependency="enable_notification" android:defaultValue="07:00"/>
+        <com.appsgeyser.multiTabApp.utils.TimePreference android:title="@string/to" android:key="time_to" android:summary="22:00" android:dependency="enable_notification" android:defaultValue="22:00"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="About" android:key="about_category">
+        <Preference android:title="@string/info_about" android:key="about_preference" android:summary="@string/developer_info"/>
+        <Preference android:title="@string/build_version" android:key="build_version_preference"/>
+    </PreferenceCategory>
+</PreferenceScreen>

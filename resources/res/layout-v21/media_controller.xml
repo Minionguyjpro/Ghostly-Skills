@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@+id/center_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <View android:id="@+id/center_view_background" android:background="@color/center_view_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include android:layout_gravity="center" android:id="@+id/embedded_transport_controls" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/embedded_transport_controls"/>
+        <include android:layout_gravity="center" android:id="@+id/minimal_transport_controls" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/minimal_transport_controls"/>
+    </FrameLayout>
+    <LinearLayout android:id="@+id/title_bar" android:background="@drawable/title_bar_gradient" android:baselineAligned="false" style="@style/TitleBar">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_bar_left" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:ellipsize="middle" android:gravity="center_vertical" android:id="@+id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/mcv2_embedded_icon_padding" android:paddingEnd="@dimen/mcv2_embedded_icon_padding"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/title_bar_right" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ad_external_link" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5dp" android:paddingEnd="10dp">
+                <TextView android:textSize="10sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@+id/ad_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MediaControlView_ad_text" android:paddingEnd="5dp"/>
+                <ImageButton android:id="@+id/ad_launch" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TitleBarButton.Launch"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:id="@+id/minimal_fullscreen_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <ImageButton android:id="@+id/minimal_fullscreen" style="@style/BottomBarButton.FullScreen"/>
+    </LinearLayout>
+    <View android:id="@+id/bottom_bar_background" android:background="@color/bottom_bar_background" android:layout_width="match_parent" android:layout_height="@dimen/mcv2_bottom_bar_height" android:layoutDirection="ltr"/>
+    <LinearLayout android:id="@+id/bottom_bar_left" android:layout_width="wrap_content" android:layout_height="@dimen/mcv2_bottom_bar_height" android:layoutDirection="ltr">
+        <include android:id="@+id/full_transport_controls" layout="@layout/full_transport_controls"/>
+        <TextView android:textSize="12sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/ad_skip_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="@dimen/mcv2_bottom_bar_height" android:layoutDirection="ltr" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <TextView android:id="@+id/time_current" style="@style/TimeText.Current"/>
+        <TextView android:id="@+id/time_interpunct" style="@style/TimeText.Interpunct"/>
+        <TextView android:id="@+id/time_end" style="@style/TimeText.End"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/basic_controls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <TextView android:textSize="12sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/ad_remaining" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageButton android:id="@+id/subtitle" android:visibility="gone" android:scaleType="fitCenter" android:alpha="0.5" style="@style/BottomBarButton.CC"/>
+        <ImageButton android:id="@+id/fullscreen" android:visibility="gone" style="@style/BottomBarButton.FullScreen"/>
+        <ImageButton android:id="@+id/overflow_show" style="@style/BottomBarButton.OverflowShow"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/extra_controls" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+        <ImageButton android:id="@+id/settings" style="@style/BottomBarButton.Settings"/>
+        <ImageButton android:id="@+id/overflow_hide" style="@style/BottomBarButton.OverflowHide"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/progress_bar" android:layout_width="match_parent" android:layout_height="@dimen/mcv2_custom_progress_thumb_size" android:layoutDirection="ltr">
+        <SeekBar android:id="@+id/progress" android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="@dimen/mcv2_custom_progress_max_size" android:progressDrawable="@drawable/custom_progress" android:minHeight="@dimen/mcv2_custom_progress_max_size" android:thumb="@drawable/custom_progress_thumb" android:thumbOffset="0dp" android:contentDescription="@string/mcv2_seek_bar_desc" android:paddingStart="0dp" android:paddingEnd="0dp" android:elevation="10dp" android:splitTrack="false"/>
+    </FrameLayout>
+</merge>

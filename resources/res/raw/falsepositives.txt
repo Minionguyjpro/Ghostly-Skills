@@ -1,0 +1,39 @@
+=== Appsgeyser false positives ===
+________________________________________
+Our company Appsgeyser (founded in 2011, Virginia, USA) is one of the 
+leading android application development environments for newbies 
+(http://www.appsgeyser.com/) 
+
+More than 1000 users everyday create their android apps using our online 
+Android app making tool. Reputable companies including banks, US Government/ 
+Military sector are using our tools to create their own mobile apps. 
+Appsgeyser platform code is 100% malware/spyware/virus free. Analysis on 
+any level will demonstrate that apps built with www.appsgeyser.com has no 
+harmful code nor they ask risky android permissions. But some users try to 
+mislead people to harmful resources with our platfrom or use our platform 
+to wrap content that others may find harmful or abusive. 
+
+Unfortunately several antivirus vendors in the past have marked our platform 
+in error creating "false positive" reports. We encourage antivirus vendors to 
+carefully review the reported file submissions and try to locate the 
+particular build rather than marking common parts of the platform in error.
+
+Please note that each application built with Appsgeyser can be identified 
+by package name or by the AppID that is stored in the file named 
+configuration.xml located under /res/raw.  AppID could be found in 
+between <id> </id> tags
+
+<?xml version="1.0" encoding="UTF-8"?>
+<webWidget>
+	<widgetName>sadas</widgetName>
+	<registeredUrl>
+		<link>http://stat.appsgeyser.com/statistics.php</link>
+	</registeredUrl>  
+		<id>61831</id>
+:.
+</webWidget>
+
+By reporting this particular ID or app name or android package name to abuse@appsgeyser.com we have a chance to block particular application. This blockage will completely deactivate the application even those that were already distributed and installed by end users. 
+PLEASE TRY TO AVOID FALSE POSITIVES.
+
+Read more:  http://www.appsgeyser.com/falsepoitives.html 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@color/black_opacity_70" android:layout_width="wrap_content" android:layout_height="@dimen/mcv2_settings_height">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/mcv2_settings_height">
+        <ImageView android:id="@+id/check" android:layout_width="@dimen/mcv2_settings_icon_size" android:layout_height="@dimen/mcv2_settings_icon_size" android:layout_margin="8dp" android:src="@drawable/ic_check"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/mcv2_settings_height">
+        <TextView android:textSize="@dimen/mcv2_settings_main_text_size" android:textColor="@color/white" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="@dimen/mcv2_settings_text_height" android:paddingStart="2dp"/>
+    </RelativeLayout>
+</LinearLayout>

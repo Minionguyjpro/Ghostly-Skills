@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:checked="false" android:button="@null" android:text="@string/requestDesktopVersion" android:drawableRight="@drawable/checkbox_states_top_bar" android:drawablePadding="12dp" style="@style/BrowserTopCheckbox"/>

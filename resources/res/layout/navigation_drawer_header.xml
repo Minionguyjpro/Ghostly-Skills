@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingBottom="@dimen/drawer_list_item_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/drawer_header_drawable_width">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/navigation_drawer_widget_list_item_icon_width" android:paddingBottom="@dimen/navigation_drawer_widget_list_item_icon_width" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/drawer_header_drawable_width">
+        <ImageView android:id="@+id/navigation_drawer_header_imageView_icon" android:background="@drawable/navigation_drawer_header_icon_background" android:layout_width="@dimen/navigation_drawer_header_icon_width" android:layout_height="@dimen/navigation_drawer_header_height" android:layout_marginLeft="@dimen/drawer_list_item_margin_start" android:layout_marginStart="@dimen/drawer_list_item_margin_start"/>
+        <TextView android:textSize="18sp" android:textColor="@color/materialGray700" android:id="@+id/navigation_drawer_header_textView_appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/drawer_list_item_margin_start" android:fontFamily="@font/rubik_medium" android:layout_marginStart="@dimen/drawer_list_item_margin_start"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="1dp" android:src="@drawable/divider"/>
+</LinearLayout>

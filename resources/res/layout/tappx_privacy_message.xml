@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="bottom|left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/tappx_privacy_container_content" android:background="#eee7e7e7" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+        <TextView android:textSize="14dp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@+id/tappx_privacy_text_message" android:layout_width="285dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="Do you want to change your ad experience?."/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+            <TextView android:textSize="14dp" android:textColor="#ffffffff" android:id="@+id/tappx_privacy_button_yes" android:background="@drawable/tappx_privacy_button_background" android:paddingLeft="20dp" android:paddingTop="2dp" android:paddingRight="20dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes"/>
+            <FrameLayout android:background="#ffcacaca" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+            <TextView android:textSize="14dp" android:textColor="#ffffffff" android:id="@+id/tappx_privacy_button_no" android:background="@drawable/tappx_privacy_button_background" android:paddingLeft="20dp" android:paddingTop="2dp" android:paddingRight="20dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="No"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/tappx_privacy_container_expand_switch" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/tappx_privacy_container_expand_image" android:background="@drawable/tappx_privacy_banner_icon_plain" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <FrameLayout android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
