@@ -1,2 +1,2 @@
 # Ghostly-Skills
- An Java game for Android based on Scratch
+An game for HTML/Website based on Scratch

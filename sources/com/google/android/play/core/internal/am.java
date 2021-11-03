@@ -1,7 +1,0 @@
-package com.google.android.play.core.internal;
-
-import android.os.IBinder;
-
-public interface am<T> {
-    T a(IBinder iBinder);
-}
