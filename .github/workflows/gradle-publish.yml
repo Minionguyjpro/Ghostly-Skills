@@ -4,6 +4,12 @@ name: Nightly Build
 # Trigger Workflow every midnight UTC
 
 on:
+  push:
+    branches:
+      - Android-OS
+  pull_request:
+    branches:
+      - Android-OS
   schedule:
     - cron: '0 0 * * *'  
   workflow_dispatch: 
