@@ -27,9 +27,9 @@ DisableProgramGroupPage=yes
 InfoBeforeFile=C:\Users\hwkru\Downloads\Ghostly skills\README.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\hwkru\Downloads\Ghostly skills
+OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\builds
 OutputBaseFilename=Ghostly-Skills_Setup
-SetupIconFile=C:\Users\hwkru\Downloads\setup.ico
+SetupIconFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\setup.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -41,7 +41,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\hwkru\Downloads\Ghostly skills\locales\*"; DestDir: "{app}\locales"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\Users\hwkru\Downloads\Ghostly skills\resources\*"; DestDir: "{app}\resources"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "C:\Users\hwkru\Downloads\Ghostly skills\chrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
