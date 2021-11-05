@@ -24,12 +24,12 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
-InfoBeforeFile=C:\Users\hwkru\Downloads\Ghostly skills\README.txt
+InfoBeforeFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\README.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\hwkru\Downloads\Ghostly skills
+OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\builds
 OutputBaseFilename=Ghostly-Skills_Setup
-SetupIconFile=C:\Users\hwkru\Downloads\setup.ico
+SetupIconFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\setup.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -41,25 +41,25 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\locales\*"; DestDir: "{app}\locales"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\resources\*"; DestDir: "{app}\resources"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\chrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\chrome_200_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\d3dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\ffmpeg.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\licenses.html"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\resources.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\snapshot_blob.bin"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\v8_context_snapshot.bin"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\vk_swiftshader.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\vk_swiftshader_icd.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\vulkan-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hwkru\Downloads\Ghostly skills\swiftshader\*"; DestDir: "{app}\swiftshader"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\locales\*"; DestDir: "{app}\locales"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\resources\*"; DestDir: "{app}\resources"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\chrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\chrome_200_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\d3dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\ffmpeg.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\licenses.html"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\resources.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\snapshot_blob.bin"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\v8_context_snapshot.bin"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\vk_swiftshader.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\vk_swiftshader_icd.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\vulkan-1.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Ghostly-Skills\Ghostly-Skills\src\swiftshader\*"; DestDir: "{app}\swiftshader"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
