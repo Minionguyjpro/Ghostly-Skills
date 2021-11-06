@@ -24,10 +24,9 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
-InfoBeforeFile=C:\Users\hwkru\Downloads\Ghostly skills\README.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\hwkru\Downloads\Ghostly skills
+OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\setup_builds
 OutputBaseFilename=Ghostly-Skills_Setup
 SetupIconFile=C:\Users\hwkru\Downloads\setup.ico
 Compression=lzma
