@@ -26,7 +26,6 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\setup_builds
 OutputBaseFilename=Ghostly-Skills_Setup
 SetupIconFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\setup.ico
 Compression=lzma
