@@ -14,25 +14,29 @@
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
 AppId={{36DA08F2-5884-4637-A8A2-C0F50E6B42B5}
-AppName={#MyAppName}
-AppVersion={#MyAppVersion}
-;AppVerName={#MyAppName} {#MyAppVersion}
-AppPublisher={#MyAppPublisher}
-AppPublisherURL={#MyAppURL}
-AppSupportURL={#MyAppURL}
-AppUpdatesURL={#MyAppURL}
-DefaultDirName={autopf}\{#MyAppName}
-ChangesAssociations=yes
-DisableProgramGroupPage=yes
-InfoBeforeFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\README.txt
-; Uncomment the following line to run in non administrative install mode (install for current user only.)
-;PrivilegesRequired=lowest
-OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\builds\
-OutputBaseFilename=Ghostly-Skills_Setup.exe
+AppName={#AppName}
+AppVersion={#AppVersion}
+AppPublisher={#AppPublisher}
+AppPublisherURL={#AppURL}
+AppSupportURL={#AppURL}
+AppUpdatesURL={#AppURL}
+DefaultDirName={autopf}\{#AppName}
+DefaultGroupName={#AppName}
+OutputBaseFilename=Ghostly-Skills_Setup
 SetupIconFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\setup.ico
-Compression=lzma
 SolidCompression=yes
-WizardStyle=modern
+PrivilegesRequired=lowest
+WizardImageFile=Wizard_FreenetInstall.bmp
+WizardSmallImageFile=blue_bunny_package.bmp
+;Space needed 650 Mo
+ExtraDiskSpaceRequired=681574400
+Compression=lzma2/ultra
+InternalCompressLevel=ultra
+RestartIfNeededByRun=False
+AllowUNCPath=False
+AllowNoIcons=yes
+;Prevent installer from being run multiple times in parallel
+SetupMutex=SetupMutex{#SetupSetting("AppId")}
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
