@@ -27,8 +27,8 @@ DisableProgramGroupPage=yes
 InfoBeforeFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\README.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\builds
-OutputBaseFilename=Ghostly-Skills_Setup
+OutputDir=D:\a\Ghostly-Skills\Ghostly-Skills\builds\
+OutputBaseFilename=Ghostly-Skills_Setup.exe
 SetupIconFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\setup.ico
 Compression=lzma
 SolidCompression=yes
@@ -75,4 +75,3 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
-
