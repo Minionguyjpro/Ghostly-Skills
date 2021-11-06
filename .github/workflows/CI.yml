@@ -44,3 +44,6 @@ jobs:
       with:
         path: "Output/Ghostly-Skills_Setup.exe"
         name: wininstaller-innosetup
+
+    - name: Download all workflow run artifacts
+      uses: actions/download-artifact@v2
