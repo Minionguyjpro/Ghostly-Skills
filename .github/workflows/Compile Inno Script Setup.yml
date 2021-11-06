@@ -28,3 +28,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: iscc "D:\a\Ghostly-Skills\Ghostly-Skills\.github\workflows\Ghostly Skills.iss"
+
+    - name: Upload the installer as an artifact
+      uses: actions/upload-artifact@v2
+      if: ${{ github.event_name != 'pull_request' }}
+      with:
+        path: "Output/FreenetInstaller.exe"
+        name: wininstaller-innosetup
