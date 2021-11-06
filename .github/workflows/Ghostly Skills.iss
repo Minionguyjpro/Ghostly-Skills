@@ -26,8 +26,6 @@ OutputBaseFilename=Ghostly-Skills_Setup
 SetupIconFile=D:\a\Ghostly-Skills\Ghostly-Skills\src\setup.ico
 SolidCompression=yes
 PrivilegesRequired=lowest
-WizardImageFile=Wizard_FreenetInstall.bmp
-WizardSmallImageFile=blue_bunny_package.bmp
 ;Space needed 650 Mo
 ExtraDiskSpaceRequired=681574400
 Compression=lzma2/ultra
