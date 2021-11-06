@@ -42,7 +42,7 @@ jobs:
       uses: nextgens/authenticode-sign-action@v1.0.1
       if: ${{ github.event_name != 'pull_request' }}
       with:
-        certificate: '${{ secrets.CERTIFICATES }}'
+        certificate: '${{ secrets.CERTIFICATE }}'
         credentials: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
         key-uri: "projects/fpi-codesign/locations/europe-west3/keyRings/code-signing/cryptoKeys/certificate/cryptoKeyVersions/1"
         timestamp-url: 'http://timestamp.comodoca.com'
