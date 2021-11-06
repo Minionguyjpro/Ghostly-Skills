@@ -60,5 +60,5 @@ jobs:
       uses: actions/upload-artifact@v2
       if: ${{ github.event_name != 'pull_request' }}
       with:
-        path: "Output/FreenetInstaller.exe"
+        path: "Output/Ghostly-Skills_Setup.exe"
         name: wininstaller-innosetup
