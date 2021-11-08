@@ -50,7 +50,7 @@ jobs:
       
     - name: Adding everything to the Repo
       run: | 
-       git add .
        git config --global user.name "Minionguyjpro"
+       git add .
        git commit -am "Build new version of the installer"
        git push origin Windows-OS
