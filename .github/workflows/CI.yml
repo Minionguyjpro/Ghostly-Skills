@@ -47,3 +47,12 @@ jobs:
 
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v2
+
+    - name: Adding all the files
+      run: git add .
+      
+    - name: Adding all the files
+      run: git commit -am "Build new version of the installer"
+      
+    - name: Adding all the files
+      run: git push origin Windows-OS
