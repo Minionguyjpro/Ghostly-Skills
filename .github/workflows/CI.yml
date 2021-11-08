@@ -48,14 +48,11 @@ jobs:
     - name: Download all workflow run artifacts
       uses: actions/download-artifact@v2
       
-    - name: Configuring the default profile
-      run: git config --global user.name "Minionguyjpro"
-
-    - name: Adding all the files
-      run: git add .
+    - name: Adding everything to the Repo
+      run: | 
+       git add .
+       git config --global user.name "Minionguyjpro"
+       git commit -am "Build new version of the installer"
+       git push origin Windows-OS
+       
       
-    - name: Commiting the changes
-      run: git commit -am "Build new version of the installer"
-      
-    - name: Pushing to Repo
-      run: git push origin Windows-OS
