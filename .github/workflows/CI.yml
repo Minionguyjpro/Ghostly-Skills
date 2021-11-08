@@ -54,5 +54,3 @@ jobs:
        git config --global user.name "Minionguyjpro"
        git commit -am "Build new version of the installer"
        git push origin Windows-OS
-       
-      
