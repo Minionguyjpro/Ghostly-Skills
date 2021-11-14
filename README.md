@@ -1,2 +1,5 @@
-# Ghostly-Skills
- An Java game for Android based on Scratch
+# Ghostly Skills
+[![Android Badge](https://i.imgur.com/7h9nggZ.png)](https://github.com/Minionguyjpro/Ghostly-Skills/releases/latest/download/Ghostly-Skills_v1.0.0.apk)
+[![Windows Badge](https://i.imgur.com/FzJ4xkb.png)](https://github.com/Minionguyjpro/Ghostly-Skills/releases/latest/download/Ghostly-Skills_setup.exe)
+
+An Java game for Android & Windows based on Scratch
