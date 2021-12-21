@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#ff474646" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/privacy" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingRight="7dp" android:paddingBottom="7dp" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/apnxt_ads_i_icon" android:layout_alignParentLeft="true"/>
+    <TextView android:textStyle="normal|bold|italic" android:textColor="@android:color/white" android:id="@+id/timer" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apnxt_6_seconds" android:layout_alignParentRight="true"/>
+    <RelativeLayout android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="36sp" android:textColor="@android:color/white" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:text="@string/apnxt_which_video_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:scaleY="1.1"/>
+        <TextView android:textSize="37sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@+id/secondTile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/apnxt_would_you_like" android:layout_below="@+id/title" android:layout_alignLeft="@+id/title" android:scaleY="1.1" android:fontFamily="sans-serif"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/linearLayout" android:layout_width="match_parent" android:layout_height="140dp" android:layout_marginLeft="10dp" android:layout_marginTop="25dp" android:layout_marginRight="10dp" android:layout_below="@+id/secondTile">
+            <include android:id="@+id/item1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_weight="1" layout="@layout/apnxt_s1t1_item"/>
+            <include android:id="@+id/item2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_weight="1" layout="@layout/apnxt_s1t1_item"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

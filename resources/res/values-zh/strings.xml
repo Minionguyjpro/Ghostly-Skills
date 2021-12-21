@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AddToStartPage">添加至首页</string>
+    <string name="appExitCaption">你真的要退出应用程序？</string>
+    <string name="backButtonTitle">返回</string>
+    <string name="bottomMenuItemMore">更多</string>
+    <string name="build">编译</string>
+    <string name="cancel">取消</string>
+    <string name="defaultUserAgent">缺省UA</string>
+    <string name="desktopUserAgent">桌面UA</string>
+    <string name="dialog_select_action">选择动作</string>
+    <string name="facebookButtonTitle">Facebook</string>
+    <string name="forwardButtonTitle">前进</string>
+    <string name="gmailButtonTitle">GMail</string>
+    <string name="homeButtonTitle">首页</string>
+    <string name="loadingPaneTitle">正在加载…</string>
+    <string name="loadingVideo">加载视频</string>
+    <string name="menuAboutTitle">关于</string>
+    <string name="menuExitTitle">退出</string>
+    <string name="menuRateTitle">评价</string>
+    <string name="menuRefreshTitle">刷新</string>
+    <string name="menuShareTitle">分享</string>
+    <string name="new_start_page_item_added">新的启动项添加成功</string>
+    <string name="no">拒绝</string>
+    <string name="noContentInfoMessage">错误信息 :(\10内容无法加载</string>
+    <string name="noInternetConnectionMessage">网络连接不可用</string>
+    <string name="open_file">打开文件</string>
+    <string name="password">密码</string>
+    <string name="pinToHomeScreenButtonTitle">放置桌面</string>
+    <string name="progressBarMessage">正在加载…</string>
+    <string name="refreshgButtonTitle">刷新</string>
+    <string name="requestDesktopVersion">电脑页面</string>
+    <string name="save_file">保存文件</string>
+    <string name="setNewUserAgent">保存</string>
+    <string name="shareContentSubject">App下载连接</string>
+    <string name="shareSiteSubject">网站分享</string>
+    <string name="sign_in_to">正在登录 %s</string>
+    <string name="startupConfirmationDialogAcceptButtonCaption">接受</string>
+    <string name="startupConfirmationDialogMessage">广告可以出现在屏幕的顶部或底部. 应用 开始的时候,在全屏幕 广告可能 出 现. 如果您点击广告画面那你就会被带到另一个页面.</string>
+    <string name="startupConfirmationDialogRefuseButtonCaption">拒绝</string>
+    <string name="startupConfirmationDialogTitle">广告条款</string>
+    <string name="startupScreenTitle">正在加载…</string>
+    <string name="userAgentCaption">设置UA</string>
+    <string name="username">用户名</string>
+    <string name="yes">确认</string>
+    <string name="youtubeButtonTitle">YouTube</string>
+</resources>

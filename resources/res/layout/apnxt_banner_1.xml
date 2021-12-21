@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/banner_border" android:layout_width="320dp" android:layout_height="50dp">
+    <ImageView android:id="@+id/icon" android:layout_width="36dp" android:layout_height="36dp" android:layout_margin="7dp" android:layout_alignParentLeft="true"/>
+    <TextView android:textSize="14sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="left" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/install" android:layout_toRightOf="@+id/icon" android:layout_alignTop="@+id/icon"/>
+    <Button android:textSize="10sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/install" android:background="@drawable/apnxt_green_round_rect_banner" android:layout_width="65dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:layout_marginRight="35dp" android:text="Install" android:lines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <RatingBar android:id="@+id/ratingBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/title" android:layout_alignBottom="@+id/icon" style="@style/apnxtRatingBar"/>
+    <ImageView android:id="@+id/privacy" android:paddingLeft="14dp" android:paddingBottom="14dp" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/apnxt_banner_i_icon" android:layout_alignParentRight="true"/>
+</RelativeLayout>

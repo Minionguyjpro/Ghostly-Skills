@@ -1,0 +1,39 @@
+=== Appsgeyser zero tolerance policy ===
+________________________________________
+Appsgeyser (founded in 2011, Virginia, USA) is one of the 
+leading android application development environments for 
+newbies (http://www.appsgeyser.com/) 
+
+More than 1000 users everyday create their android apps using our online 
+Android app making tool. Reputable companies including banks, US Government/ 
+Military sector are using our tools to create their own mobile apps. 
+Appsgeyser platform code is 100% adware/spyware/virus free. Analysis on 
+any level will demonstrate that apps built with www.appsgeyser.com has 
+no harmful code nor they ask risky android permissions. 
+
+Unfortunately some users try to mislead people to harmful resources with 
+our platform or use our platform to wrap content that others may find 
+harmful. We have zero tolerance policy towards scams of any kind so we 
+will quickly respond to any reported abuse at  abuse@appsgeyser.com. We 
+have the opportunity to remotely shut down any application built on our 
+platform typically we need either of app name, android package name or App ID. 
+
+=== Technical information ===
+
+Each application has its own unique identifier (App ID). This App ID can 
+be located within .APK file built by Appsgeyser. The file named 
+configuration.xml is located under /res/raw and the APP ID could be found 
+in there between <id> </id> tags
+
+<?xml version="1.0" encoding="UTF-8"?>
+<webWidget>
+	<widgetName>sadas</widgetName>
+	<registeredUrl>
+		<link>http://stat.appsgeyser.com/statistics.php</link>
+	</registeredUrl>  
+		<id>61831</id>
+:.
+</webWidget>
+
+By reporting this particular ID we have a chance to block particular 
+application on our platform. 

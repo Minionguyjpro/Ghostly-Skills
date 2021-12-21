@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="#ffd6d7d7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textColor="#aaaaaaaa" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/textView" android:background="#ffffffff" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/search_hint" android:drawableLeft="@drawable/ic_public_black_24dp" android:drawableRight="@drawable/ic_search_black_24dp" android:drawablePadding="8dp"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@+id/main_app_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:theme="@style/ActionBarThemeOverlay">
+            <androidx.appcompat.widget.Toolbar android:id="@+id/main_toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="9" app:popupTheme="@style/ActionBarPopupThemeOverlay" app:theme="@style/ActionBarThemeOverlay"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/frame_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/main_app_bar">
+            <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/slider_handle" android:background="@drawable/slider_handle_background" android:paddingLeft="36dp" android:paddingRight="0dp" android:visibility="gone" android:layout_width="52dp" android:layout_height="50dp" android:layout_marginLeft="-40dp" android:src="@drawable/ic_keyboard_arrow_right_white_24dp" android:paddingStart="32dp" android:paddingEnd="0dp" android:layout_marginStart="-40dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <RelativeLayout android:gravity="center" android:id="@+id/adView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/contentFrame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <FrameLayout android:orientation="vertical" android:id="@+id/customFrame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:orientation="vertical" android:id="@+id/fullScreenBannerContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.appsgeyser.multiTabApp.ui.views.BrowserWebView android:id="@+id/startupScreenWebView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <RelativeLayout android:id="@+id/splashScreenView" android:background="@color/splashScreenBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/splashScreenImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <ListView android:layout_gravity="start" android:id="@+id/left_drawer_widget" android:background="#ffffffff" android:layout_width="300dp" android:layout_height="match_parent" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="singleChoice"/>
+</androidx.drawerlayout.widget.DrawerLayout>

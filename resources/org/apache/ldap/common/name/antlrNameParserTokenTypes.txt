@@ -1,0 +1,14 @@
+// $ANTLR 2.7.2: dnparser.g -> antlrNameParserTokenTypes.txt$
+antlrNameParser    // output token vocab name
+EQUAL=4
+COMMA=5
+SEMI=6
+DN_TERMINATOR=7
+PLUS=8
+DIGIT=9
+ALPHA=10
+OPEN_BRACKET=11
+CLOSE_BRACKET=12
+OID=13
+ATTRIBUTE=14
+WS=15

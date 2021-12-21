@@ -1,0 +1,21 @@
+(function(d){
+var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+p.type = 'text/javascript';
+p.async = true;
+p.src = '//assets.pinterest.com/js/pinit.js';
+f.parentNode.insertBefore(p, f);
+}(document));
+var pinlWrapper=document.createElement("div");
+pinlWrapper.style.position="fixed";
+pinlWrapper.style.bottom="5px";
+pinlWrapper.style.right="5px";
+pinlWrapper.style.textAlign="center";
+pinlWrapper.style.zIndex="9000";
+var pagePinIt=window.location.href;
+var pinItPic=document.createElement("img");
+pinItPic.setAttribute("src","http://assets.pinterest.com/images/pidgets/pin_it_button.png");
+var pinItLink=document.createElement("a");
+pinItLink.setAttribute("href","https://www.pinterest.com/pin/create/button/?url="+pagePinIt);
+pinItLink.appendChild(pinItPic);
+pinlWrapper.appendChild(pinItLink);
+document.getElementsByTagName("body")[0].appendChild(pinlWrapper);

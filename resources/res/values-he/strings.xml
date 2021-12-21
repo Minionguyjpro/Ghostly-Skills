@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AddToStartPage">הוסיף לדף הבית</string>
+    <string name="appExitCaption">האם רצונך לצאת מהאפליקציה</string>
+    <string name="backButtonTitle">חזור</string>
+    <string name="bottomMenuItemMore">יותר</string>
+    <string name="build">בנה</string>
+    <string name="cancel">ביטל</string>
+    <string name="dialog_select_action">בחר פעולה</string>
+    <string name="forwardButtonTitle">קדימה</string>
+    <string name="homeButtonTitle">בית</string>
+    <string name="loadingPaneTitle">מטעין</string>
+    <string name="loadingVideo">מטעין סרטון</string>
+    <string name="menuAboutTitle">על</string>
+    <string name="menuExitTitle">יציאה</string>
+    <string name="menuRateTitle">דרג</string>
+    <string name="menuRefreshTitle">לרענן</string>
+    <string name="menuShareTitle">שתף</string>
+    <string name="new_start_page_item_added">דף בית חדש הוסף</string>
+    <string name="no">לא</string>
+    <string name="noContentInfoMessage">משהו קרה :( אין תוכן זמין</string>
+    <string name="noInternetConnectionMessage">חיבור לאינטרנט אינו זמין</string>
+    <string name="open_file">פתח קובץ</string>
+    <string name="password">סיסמא</string>
+    <string name="pinToHomeScreenButtonTitle">תצמיד לשולחן עבודה</string>
+    <string name="progressBarMessage">מטעין</string>
+    <string name="refreshgButtonTitle">רענן</string>
+    <string name="requestDesktopVersion">ביקש דף שולחן העבודה</string>
+    <string name="save_file">שמור קובץ</string>
+    <string name="setNewUserAgent">שמור והחל</string>
+    <string name="shareContentSubject">קיבל אפליקציה מגניבה</string>
+    <string name="shareSiteSubject">תהנו באתר זה</string>
+    <string name="sign_in_to">%s התחבר</string>
+    <string name="startupConfirmationDialogAcceptButtonCaption">הסכם</string>
+    <string name="startupConfirmationDialogMessage">ניתן להציג פרסומות בחלק העליון או התחתון של המסך.פרסומת במסך מלא ניתן להציג על תחילת אפליקציה או סגירתה או אחרי כמה פעולות משתמש. אם תלחץ על הפרסומת, אתה תנותב אל דף אינטרנט של צד שלישי.</string>
+    <string name="startupConfirmationDialogRefuseButtonCaption">סרב</string>
+    <string name="startupConfirmationDialogTitle">תנאי פרסום</string>
+    <string name="startupScreenTitle">מטעין</string>
+    <string name="urlBoxHint">חיפוש או רשום כתובת אינטרנט</string>
+    <string name="username">שם</string>
+    <string name="yes">כן</string>
+</resources>

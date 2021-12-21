@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:textColorPrimary="#ffffffff" android:id="@+id/tabtags_panel" android:background="?attr/colorPrimary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:tabGravity="1" app:tabIndicatorColor="@color/white" app:tabIndicatorHeight="2dp" app:tabInlineLabel="true" app:tabMode="0" app:tabSelectedTextColor="@color/white" app:tabTextColor="@color/materialTransparentWhite500" style="@style/Widget.MaterialComponents.TabLayout"/>
+    <com.appsgeyser.multiTabApp.controllers.ContentSwipeAwareViewPager android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/tabcontents_panel" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/topNavigationRow" android:background="?attr/colorPrimary" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginRight="0dp" android:minHeight="50dp" android:paddingStart="0dp" android:paddingEnd="0dp" android:layout_marginEnd="0dp" android:contentInsetStart="0dp" android:contentInsetLeft="0dp" app:contentInsetLeft="0dp" app:contentInsetStart="0dp" app:popupTheme="@style/ActionBarPopupThemeOverlay" app:theme="@style/ActionBarThemeOverlay">
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/search_container" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/search_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="60dp" android:layout_marginEnd="60dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/search_icon" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_white_24dp"/>
+                <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <AutoCompleteTextView android:textColor="#ffffffff" android:textColorHint="#b3ffffff" android:gravity="center_vertical" android:id="@+id/urlTextbox" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/urlBoxHint" android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:inputType="textUri" android:imeOptions="actionSearch"/>
+                    <ImageButton android:id="@+id/clearText" android:background="@android:color/transparent" android:padding="3dp" android:visibility="gone" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginRight="0dp" android:src="@drawable/ic_cancel_16" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="0dp" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingEnd="10dp" android:layout_alignParentEnd="true">
+                <ImageButton android:layout_gravity="center" android:id="@+id/stopRefreshButton" android:background="@android:color/transparent" android:paddingLeft="8dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_refresh_white_24dp" android:paddingStart="8dp" android:paddingEnd="4dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView android:id="@+id/suggestionsScroll" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/suggestions" android:background="@drawable/suggestions_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="50dp" android:layout_marginRight="0dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp"/>
+    </ScrollView>
+    <ScrollView android:id="@+id/menuOverlayScroll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <RelativeLayout android:layout_gravity="top" android:id="@+id/menuOverlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="47dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/additionalMenu" android:background="@drawable/url_bar_menu_shadow" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:layout_marginRight="-10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginStart="0dp" android:layout_marginEnd="-10dp" android:layout_alignParentEnd="false"/>
+        </RelativeLayout>
+    </ScrollView>
+</merge>
