@@ -4,3 +4,5 @@
 [![Web Badge](https://i.imgur.com/nKCAsvE.png)](https://minionguyjpro.github.io/Ghostly-Skills/)
 
 An Java game for Android & Windows based on Scratch
+# Remotely Installation
+![Android QR Code]()
