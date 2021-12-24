@@ -11,13 +11,7 @@ jobs:
      - uses: actions/checkout@v2
      - name: Create report file
        run: date +%s > report.txt
-     - name: Commit report
-       run: |
-          git config --global user.name 'Minionguyjpro'
-          git config --global user.email 'minionguyjpro@users.noreply.github.com'
-          git commit -am "Automated report"
-          git push
-    
+       
      - name: Checkout
        uses: actions/checkout@v2
        with:
@@ -47,5 +41,10 @@ jobs:
          "%programfiles(x86)%\Inno Setup 6\iscc.exe" "Ghostly Skills.iss"
        shell: cmd
 
-     - name: Download all workflow run artifacts
-       uses: actions/download-artifact@v2
+     - name: Commit report
+       run: |
+          git config --global user.name 'Minionguyjpro'
+          git config --global user.email 'minionguyjpro@users.noreply.github.com'
+          git commit -am "Automated report"
+          git push
+    
