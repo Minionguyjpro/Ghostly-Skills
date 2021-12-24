@@ -1,2 +1,0 @@
-src/Ghostly-Skills.exe filter=lfs diff=lfs merge=lfs -text
-Output/Ghostly-Skills_Setup.exe filter=lfs diff=lfs merge=lfs -text
